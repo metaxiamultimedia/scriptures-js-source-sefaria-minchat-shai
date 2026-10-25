@@ -1,0 +1,43 @@
+MIT License
+
+Copyright (c) 2026 Metaxia Multimedia LLC
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+The MIT License above covers the scripts in this repository
+(scripts/pull-minchat-shai.py) and the repository's own files. It does not cover
+the Minchat Shai text.
+
+---
+
+DATA — PUBLIC DOMAIN
+
+Text:     Minchat Shai, Hebrew: the 35 Sefaria titles "Minchat Shai on ..."
+          (data/sources/minchat-shai/Minchat Shai on *.json).
+Source:   Sefaria (https://www.sefaria.org), via Sefaria-Export
+          (https://github.com/Sefaria/Sefaria-Export) at commit
+          de1d27b7e275bf29709977dff6684335eb91ef30 and the gs://sefaria-export
+          bucket.
+License:  Public Domain. Sefaria gives each text version a license field, and
+          every version in this snapshot has the license "Public Domain"
+          (recorded per title in data/sources/minchat-shai/SOURCE.json).
+
+The JSON files are Sefaria's export files, byte for byte; SOURCE.json records
+their sha256, the bucket md5 and each version's license, versionTitle and
+versionSource.

@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+
+# Cache
+.cache/
+
+# CI output
+citations-report/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
